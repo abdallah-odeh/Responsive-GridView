@@ -10,15 +10,15 @@ A new Flutter package to create a responsive gridview list with a dynamic number
 
 [Example] https://github.com/abdallah-odeh/Responsive-GridView/tree/master/example/main.dart
 
-To use this package:
+### To use this package:
 
-    1- Add this following line to your pubspec.yaml
+    ##### 1- Add this following line to your pubspec.yaml
         dependencies:
           flutter:
             sdk: flutter
     =>    flutter_responsive_grid:
 
-    2- Simply invoke it inside your widget tree and pass the **children** as a list of widget, number of **columns** and the **size** between each child [default is 8.0]
+    #### 2- Simply invoke it inside your widget tree and pass the children as a list of widget, number of columns and the size between each child [default is 8.0]
         Scaffold(
           appBar: AppBar(),
           body: SingleChildScrollView(
