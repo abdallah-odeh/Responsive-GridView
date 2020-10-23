@@ -62,7 +62,6 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: SingleChildScrollView(
-        physics: BouncingScrollPhysics(),
         child: ResponsiveGrid(
           children: children,
           columns: 3,
