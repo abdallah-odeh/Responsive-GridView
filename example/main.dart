@@ -65,6 +65,8 @@ class MyHomePage extends StatelessWidget {
         physics: BouncingScrollPhysics(),
         child: ResponsiveGrid(
           children: children,
+          columns: 3,
+          sizeBetween: 8.0
         ),
       ),
     );
